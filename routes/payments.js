@@ -496,7 +496,6 @@ routerPayments.post('/phonepe/get-payments', /* auth, */ async (req, res) => {
     }
 });
 
-
 // PhonePe record-payment
 routerPayments.post('/phonepe/record-payment', /* auth, */ async (req, res) => {
     const { userid, name, city, state, emailid, paymentobj } = req.body;

@@ -11,7 +11,7 @@ const rateLimitMiddleware2 = require("./middleware/ratelimit2")
 const routerPayments = require('./routes/payments');
 const recovery = require("./routes/recovery");
 const routerVerify = require('./routes/verify')
-const {resetCounter} = require('./utils/counter');
+const { resetCounter } = require('./utils/counter');
 
 const db = require('./db');
 const encryptionMiddleware = require('./middleware/encryptionMiddleware');

@@ -77,7 +77,6 @@ const sendEmail = async (emaildata) => {
     
         console.log("Email sent Succesfully");
         await incrementCounter();
-        done();
 
     }).catch(async (error) => {
         console.log("Email send failure 1")
@@ -136,7 +135,6 @@ const sendEmail = async (emaildata) => {
     
         console.log("Email sent Succesfully2");
         await incrementCounter();
-        done();
     }
   } catch (error) {
       //console.log("Email send failure 2")
